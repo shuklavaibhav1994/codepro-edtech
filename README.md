@@ -1,45 +1,43 @@
-# Lending Club Case Study
+# CodePro EdTech Assignment
 
 ## Problem Statement:
 
-A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
+CodePro is an EdTech startup that had a phenomenal seed A funding round. 
+It used the money to increase its brand awareness. As the marketing spend increased, it got several leads from different sources. Although it had spent significant money on acquiring customers, it had to be profitable in the long run to sustain the business. The major cost that the company is incurring is the customer acquisition cost (CAC).
 
-A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario. So, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end, and the economy restores to a healthy state.
+At the initial stage, customer acquisition cost is required to be high in companies. But as their businesses grow, these companies start focussing on profitability. Many companies first offer their services for free or provide offers at the initial stages but later start charging customers for these services. For example, Google Pay used to provide many offers, and Reliance Jio in India offered free mobile data services for over a year. Once these brands were established and brand awareness was generated, these businesses started growing organically. At this point, they began charging customers.
 
-In such an attempt, BoomBikes aspires to understand the demand for shared bikes among the people after this ongoing quarantine situation ends across the nation due to Covid-19. They have planned this to prepare themselves to cater to the people's needs once the situation gets better all around and stand out from other service providers and make huge profits.
+We had to weed out junk leads from our system. The sales executives are calling potential leads; however, several of them are turning out to be junk leads. This is leading to the wastage of the company’s time and resources. Hence, the business objective is to improve the efficiency of the sales process, i.e., to increase L2AC. Data science team discussed that we can predict the L2AC flag using the origin of the leads and how they are interacting with the platform.
 
-They have contracted a consulting company to understand the factors on which the demand for these shared bikes depends. Specifically, they want to understand the factors affecting the demand for these shared bikes in the American market. The company wants to know:
+### Steps involved:
 
 <ul>
-	<li>Which variables are significant in predicting the demand for shared bikes.</li>
-	<li>How well those variables describe the bike demands</li>
-</ul>	
+	<li>Data Pipeline</li>
+	<li>Training Pipeline</li>
+	<li>Inference Pipeline</li>
+</ul>
 
-Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors.
+### Evaluation Metrics:
 
-#### Business Goal:
-You are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
+<ul>
+	<li>AUC score >75%</li>
+	<li>Precision > 65%</li>
+	<li>Recall > 75%</li>
+</ul>
 
-## Technologies Used: 
+### Business Goal:
+
+Businesses want to reduce their customer acquisition costs in the long run. 
+
+### Technologies Used: 
 
 Python, HTML
 
-## Libraries Used: 
+### Libraries Used: 
 
-Numpy, Pandas, Seaborn, Matplotlib, Sklearn, Statsmodel
+Numpy, Pandas, Sklearn, Airflow, MLFlow, Pycaret
 
-## Steps covered:
-
-<ul>
-	<li>Reading, understanding and visualising the data</li>
-	<li>Preparing the data for modelling (train-test split, rescaling etc.)</li>
-	<li>Training the model</li>
-	<li>Residual analysis</li>
-	<li>Making Predictions Using the Final Model</li>
-	<li>Suggestion and summary</li>
-</ul>
-
-## Contributors
+### Contributors
 
 <ul>
 	<li>Vaibhav Shukla</li>
